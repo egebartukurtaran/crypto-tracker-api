@@ -49,15 +49,34 @@ A lightweight and efficient backend API for tracking cryptocurrency prices acros
 3. Create a .env file in the root directory with the following contents:
    ```bash
    npm install
-4.Required Variables
+4.Required Environment Variables
 
-| Variable | Description | Default | Required |
-|----------|-------------|---------|----------|
-| PORT | The port number for the server | 4000 | No |
-| NODE_ENV | Application environment | development | No |
-| CACHE_TTL | Cache time-to-live in seconds | 60 | No |
+   | Variable | Description | Default | Required |
+   |----------|-------------|---------|----------|
+   | PORT | The port number for the server | 4000 | No |
+   | NODE_ENV | Application environment | development | No |
+   | CACHE_TTL | Cache time-to-live in seconds | 60 | No |
 
-### Optional Variables
-For production deployment, you might want to add:   
+5. Start the development server
+   ```bash
+   npm run start
+## Development
+### Project Structure
+crypto-tracker-api/
+├── src/
+│   ├── config/          # Configuration files
+│   ├── controllers/     # Request handlers
+│   ├── middlewares/     # Express middlewares
+│   ├── models/          # Data models
+│   ├── routes/          # API routes
+│   ├── services/        # Business logic
+│   ├── utils/           # Helper functions
+│   └── app.js           # Express application
+├── tests/               # Test files
+├── .env                 # Environment variables
+├── .gitignore           # Git ignore file
+├── package.json         # Project dependencies
+└── README.md            # This file
+    
       
    
