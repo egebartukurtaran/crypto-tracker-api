@@ -43,3 +43,21 @@ A lightweight and efficient backend API for tracking cryptocurrency prices acros
    ```bash
    git clone https://github.com/yourusername/crypto-tracker-api.git
    cd crypto-tracker-api
+2. Install Dependencies
+   ```bash
+   npm install
+3. Create a .env file in the root directory with the following contents:
+   ```bash
+   npm install
+4.Required Variables
+
+| Variable | Description | Default | Required |
+|----------|-------------|---------|----------|
+| PORT | The port number for the server | 4000 | No |
+| NODE_ENV | Application environment | development | No |
+| CACHE_TTL | Cache time-to-live in seconds | 60 | No |
+
+### Optional Variables
+For production deployment, you might want to add:   
+      
+   
