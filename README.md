@@ -50,7 +50,6 @@ A lightweight and efficient backend API for tracking cryptocurrency prices acros
    ```bash
    npm install
 4.Required Environment Variables
-
    | Variable | Description | Default | Required |
    |----------|-------------|---------|----------|
    | PORT | The port number for the server | 4000 | No |
