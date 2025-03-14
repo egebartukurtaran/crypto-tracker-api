@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+
+# Coverage directory
+coverage
+
+# OS specific files
+.DS_Store
