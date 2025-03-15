@@ -1,3 +1,6 @@
+//Loads environment variables from the .env file
+// Starts the Express server on the configured port
+// Sets up an unhandled promise rejection handler to prevent crashes
 require('dotenv').config();
 const app = require('./src/app');
 

@@ -1,3 +1,8 @@
+// Configures middleware (CORS, JSON parsing)
+// Sets up route handlers
+// Includes a simple health check endpoint
+// Applies the global error handler
+
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
